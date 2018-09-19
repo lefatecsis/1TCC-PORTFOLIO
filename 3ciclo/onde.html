@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="Content-Language" content="pt-br">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Reciclagem e Preservação Ambiental</title>
+      <link rel="icon" href="img/logo.png"/>
+      <link rel="stylesheet" href="./css/reset.css">
+      <link rel="stylesheet" href="./css/contraste.css">
+      <link rel="stylesheet" href="./css/acessibilidade.css">
+      <meta name="keywords" content="Reciclagem, preservação ambiental, natureza"/>
+   </head>
+   <body>
+      <nav role="navigation" class="menuAcessibilidade">
+         <ul>
+            <li id="botaoConteudo"><a href="#top" accesskey="1">Ir para o Conteúdo Principal [Alt + 1]</a></li>
+            <li><a href="#menu" accesskey="2">Início do Menu [Alt + 2]</a></li>
+            <li><a href="#altocontraste" id="altocontraste" accesskey="3" onclick="window.toggleContrast()" onkeydown="window.toggleContrast()">Alto contraste [Alt + 3]</a></li>
+            <li><button onClick="fonte('n');">A</button></li>
+            <li><button onClick="fonte('a');">A+</button></li>
+            <li><button onClick="fonte('d');">A-</button></li>
+         </ul>
+      </nav>
+      <nav class="topnav" id="myTopnav">
+         <a href="index.html" class="active" id="logo">RECICLARE</a>
+         <a href="porque.html">Porque?</a>
+         <a href="como.html">Como?</a>
+         <a href="onde.html">Onde?</a>
+         <a href="javascript:void(0);" class="icon" onclick="myFunction();myBusca();">
+         <i class="fa fa-bars"></i></a>
+         <div class="search-container">
+            <form action="/action_page.php">
+               <input type="text" placeholder="Pesquisa..." name="search">
+               <button type="submit">Buscar</button>
+            </form>
+         </div>
+      </nav>
+      <div class="acessibilidade">
+         <section class="onde">
+            <label>Selecione o estado: </label>
+            <select class="sl-estado">
+               <option>Acre</option>
+               <option>Alagoas</option>
+               <option>Amapá</option>
+               <option>Amazonas</option>
+               <option>Bahia</option>
+               <option>Ceará</option>
+               <option>Distrito Federal</option>
+               <option>Espírito Santo</option>
+               <option>Goiás</option>
+               <option>Maranhão</option>
+               <option>Mato Grosso</option>
+               <option>Mato Grosso do Sul</option>
+               <option>Minas Gerais</option>
+               <option>Pará</option>
+               <option>Paraíba</option>
+               <option>Paraná</option>
+               <option>Pernambuco</option>
+               <option>Piauí</option>
+               <option>Rio de Janeiro</option>
+               <option>Rio Grande do Norte</option>
+               <option>Rio Grande do Sul</option>
+               <option>Rondônia</option>
+               <option>Roraima</option>
+               <option>Santa Catarina</option>
+               <option>São Paulo</option>
+               <option>Sergipe</option>
+               <option>Tocantins</option>
+            </select>
+            <label>Selecione a cidade: </label>
+            <select class="sl-cidade">
+               <option>Recife</option>
+               <option>João Pessoa</option>
+            </select>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d58538.74311533778!2d-46.80757064508687!3d-23.508340890762593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1spontos+de+recicilagem+em+osasco!5e0!3m2!1spt-BR!2sbr!4v1478367748486" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+         </section>
+      </div>
+      <footer>
+         <div class="rodape" >
+            <div class="redes"><a href="https://pt-br.facebook.com/" target="blank" > <img src="img/facebook.svg" alt="Icone Facebook" width="50px" height="50px"></a>
+               <a href="https://twitter.com/?lang=pt-br" target="blank"> <img src="img/twitter.svg" alt="Icone Twitter" width="50px" height="50px"></a>
+               <a href="https://www.linkedin.com/portugues" target="blank"> <img src="img/linkedin.svg" alt="Icone Linkedin" width="50px" height="50px"></a>   
+               <a href="https://www.blogger.com/home" target="blank"> <img src="img/blogger.svg" alt="Icone Blogger" width="50px" height="50px"></a>
+            </div>
+         </div>
+         <div class="rodape">
+            <p>Endereço: Av. Francisco Pignatari, 650<br>Vila Gustavo Correia, Carapicuíba - SP<br>CEP: 06310-390 Tel: (11)7788-6411</p>
+         </div>
+      </footer>
+      <script type="text/javascript" src="js/contraste.js"></script>
+      <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+      <script type="text/javascript" src="js/acessibilidade.js"></script>
+   </body>
+</html>
